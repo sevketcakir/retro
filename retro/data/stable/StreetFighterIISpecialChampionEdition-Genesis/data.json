@@ -1,5 +1,9 @@
 {
   "info": {
+    "attack_index": {
+      "address": 16744634,
+      "type": ">u2"
+    },
     "continuetimer": {
       "address": 16744917,
       "type": "|u1"
@@ -8,21 +12,69 @@
       "address": 16745154,
       "type": ">i2"
     },
+    "enemy_hero": {
+      "address": 16745563,
+      "type": "|u1"
+    },
+    "enemy_level": {
+      "address": 16750308,
+      "type": "|d1"
+    },
     "enemy_matches_won": {
       "address": 16745559,
       "type": ">u4"
+    },
+    "enemy_posx": {
+      "address": 16745094,
+      "type": ">u2"
     },
     "health": {
       "address": 16744514,
       "type": ">i2"
     },
+    "hero": {
+      "address": 16744923,
+      "type": "|u1"
+    },
+    "horizontal_distance": {
+      "address": 16744652,
+      "type": ">u2"
+    },
+    "is_attacking": {
+      "address": 16744638,
+      "type": ">u2"
+    },
+    "jump_height": {
+      "address": 16744654,
+      "type": ">u2"
+    },
     "matches_won": {
       "address": 16744922,
       "type": "|u1"
     },
+    "posx": {
+      "address": 16744454,
+      "type": ">u2"
+    },
+    "posx2": {
+      "address": 16746150,
+      "type": ">u2"
+    },
+    "posy": {
+      "address": 16744458,
+      "type": ">d2"
+    },
+    "remaining_time": {
+      "address": 16750377,
+      "type": ">d2"
+    },
     "score": {
       "address": 16744936,
       "type": ">d4"
+    },
+    "zzz": {
+      "address": 16744492,
+      "type": ">d2"
     }
   }
 }
