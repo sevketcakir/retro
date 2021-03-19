@@ -10,6 +10,9 @@
       },
       "round": {
         "op": "zero"
+      },
+      "enemy_level": {
+        "op": "zero"
       }
     }
   },

@@ -1,12 +1,40 @@
 {
   "info": {
+    "continuetimer": {
+      "address": 16737362,
+      "type": "|u1"
+    },
     "enemy_health": {
       "address": 16730511,
       "type": "|u1"
     },
+    "enemy_hero": {
+      "address": 16750222,
+      "type": ">u2"
+    },
+    "enemy_level": {
+      "address": 16755280,
+      "type": ">u4"
+    },
+    "enemy_posx": {
+      "address": 16730366,
+      "type": ">u2"
+    },
     "health": {
       "address": 16730175,
       "type": "|u1"
+    },
+    "hero": {
+      "address": 16750220,
+      "type": ">u2"
+    },
+    "posx": {
+      "address": 16730030,
+      "type": ">u2"
+    },
+    "remaining_time": {
+      "address": 16755304,
+      "type": "|d1"
     },
     "round": {
       "address": 16755265,
@@ -15,6 +43,10 @@
     "score": {
       "address": 16730166,
       "type": ">d4"
+    },
+    "zzz": {
+      "address": 16725796,
+      "type": ">u2"
     }
   }
 }
