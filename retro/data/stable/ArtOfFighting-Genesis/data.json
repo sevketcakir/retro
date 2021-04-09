@@ -1,5 +1,9 @@
 {
   "info": {
+    "attack_type": {
+      "address": 16748625,
+      "type": "|u1"
+    },
     "camera_height": {
       "address": 16729987,
       "type": "|d1"
@@ -11,6 +15,14 @@
     "enemy_hero": {
       "address": 16749775,
       "type": "|d1"
+    },
+    "enemy_is_attacking": {
+      "address": 16749202,
+      "type": ">n6"
+    },
+    "enemy_is_attacking2": {
+      "address": 16712422,
+      "type": "|u1"
     },
     "enemy_level": {
       "address": 16712344,
@@ -44,6 +56,10 @@
       "address": 16748632,
       "type": ">u2"
     },
+    "is_attacking": {
+      "address": 16748692,
+      "type": ">u4"
+    },
     "posx": {
       "address": 16749864,
       "type": ">i2"
@@ -65,8 +81,8 @@
       "type": "|u1"
     },
     "zzz": {
-      "address": 16748602,
-      "type": ">u2"
+      "address": 16748692,
+      "type": "|u2"
     }
   }
 }
