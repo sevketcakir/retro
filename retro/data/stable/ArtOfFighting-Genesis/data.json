@@ -1,8 +1,60 @@
 {
   "info": {
+    "camera_height": {
+      "address": 16729987,
+      "type": "|d1"
+    },
+    "enemy_health": {
+      "address": 16749232,
+      "type": ">u2"
+    },
+    "enemy_hero": {
+      "address": 16749775,
+      "type": "|d1"
+    },
+    "enemy_level": {
+      "address": 16712344,
+      "type": ">u2"
+    },
+    "enemy_posx": {
+      "address": 16749992,
+      "type": ">i2"
+    },
+    "enemy_posy": {
+      "address": 16749098,
+      "type": ">u2"
+    },
     "enemy_rounds_won": {
       "address": 16716211,
       "type": "|u1"
+    },
+    "health": {
+      "address": 16748720,
+      "type": ">u2"
+    },
+    "hero": {
+      "address": 16749647,
+      "type": "|d1"
+    },
+    "hero_col": {
+      "address": 16748600,
+      "type": ">u2"
+    },
+    "hero_row": {
+      "address": 16748632,
+      "type": ">u2"
+    },
+    "posx": {
+      "address": 16749864,
+      "type": ">i2"
+    },
+    "posy": {
+      "address": 16748586,
+      "type": ">u2"
+    },
+    "remaining_time": {
+      "address": 16712368,
+      "type": ">n4"
     },
     "score": {
       "address": 16716216,
@@ -11,6 +63,10 @@
     "total_rounds": {
       "address": 16716213,
       "type": "|u1"
+    },
+    "zzz": {
+      "address": 16748602,
+      "type": ">u2"
     }
   }
 }
