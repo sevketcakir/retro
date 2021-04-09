@@ -8,6 +8,10 @@
       "address": 16744917,
       "type": "|u1"
     },
+    "enemy_has_special": {
+      "address": 16745856,
+      "type": "|u1"
+    },
     "enemy_health": {
       "address": 16745154,
       "type": ">i2"
@@ -27,6 +31,18 @@
     "enemy_posx": {
       "address": 16745094,
       "type": ">u2"
+    },
+    "enemy_posy": {
+      "address": 16745313,
+      "type": "|u1"
+    },
+    "enemy_special_posx": {
+      "address": 16745862,
+      "type": ">i2"
+    },
+    "has_special": {
+      "address": 16745728,
+      "type": "|u1"
     },
     "health": {
       "address": 16744514,
@@ -61,8 +77,8 @@
       "type": ">u2"
     },
     "posy": {
-      "address": 16744458,
-      "type": ">d2"
+      "address": 16744673,
+      "type": "|u1"
     },
     "remaining_time": {
       "address": 16750377,
@@ -71,6 +87,10 @@
     "score": {
       "address": 16744936,
       "type": ">d4"
+    },
+    "special_posx": {
+      "address": 16745734,
+      "type": ">i2"
     },
     "zzz": {
       "address": 16744492,

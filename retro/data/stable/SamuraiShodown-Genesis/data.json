@@ -1,7 +1,15 @@
 {
   "info": {
+    "attack_index": {
+      "address": 16730217,
+      "type": "|i1"
+    },
     "continuetimer": {
       "address": 16737362,
+      "type": "|u1"
+    },
+    "enemy_attack_index": {
+      "address": 16730515,
       "type": "|u1"
     },
     "enemy_health": {
@@ -11,6 +19,10 @@
     "enemy_hero": {
       "address": 16750222,
       "type": ">u2"
+    },
+    "enemy_is_attacking": {
+      "address": 16730514,
+      "type": "|u1"
     },
     "enemy_level": {
       "address": 16755280,
@@ -28,9 +40,17 @@
       "address": 16750220,
       "type": ">u2"
     },
+    "is_attacking": {
+      "address": 16730178,
+      "type": "|d1"
+    },
     "posx": {
       "address": 16730030,
       "type": ">u2"
+    },
+    "posy": {
+      "address": 16725725,
+      "type": "|u1"
     },
     "remaining_time": {
       "address": 16755304,
