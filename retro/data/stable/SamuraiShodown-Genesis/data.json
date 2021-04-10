@@ -32,6 +32,10 @@
       "address": 16730366,
       "type": ">u2"
     },
+    "enemy_posy": {
+      "address": 16725749,
+      "type": "|u1"
+    },
     "health": {
       "address": 16730175,
       "type": "|u1"
