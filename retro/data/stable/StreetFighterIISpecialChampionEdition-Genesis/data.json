@@ -20,6 +20,10 @@
       "address": 16745563,
       "type": "|u1"
     },
+    "enemy_is_attacking": {
+      "address": 16745278,
+      "type": ">u2"
+    },
     "enemy_level": {
       "address": 16750308,
       "type": "|d1"
