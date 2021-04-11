@@ -1,6 +1,6 @@
 {
   "info": {
-    "attack_type": {
+    "attack_index": {
       "address": 16748625,
       "type": "|u1"
     },
