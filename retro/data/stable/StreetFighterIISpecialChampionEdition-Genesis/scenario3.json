@@ -1,0 +1,17 @@
+{
+  "done": {
+    "variables": {
+      "continuetimer": {
+        "op": "equal",
+        "reference": 10
+      }
+    }
+  },
+  "reward": {
+    "script": "lua:calculate_reward"
+  },
+  "scripts": [
+    "script.lua"
+  ],
+  "crop": [0, 16, 256, 200]
+}
