@@ -1,0 +1,34 @@
+{
+  "crop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "done": {
+    "condition": "all",
+    "variables": {
+      "enemy_health": {
+        "op": "zero"
+      },
+      "enemy_level": {
+        "op": "zero"
+      },
+      "health": {
+        "op": "zero"
+      },
+      "round": {
+        "op": "zero"
+      }
+    }
+  },
+  "reward": {
+    "script": "lua:calculate_reward"
+  },
+  "scripts": [
+    "script.lua",
+    "script.lua",
+    "script.lua",
+    "script.lua"
+  ]
+}
